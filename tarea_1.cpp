@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-float a,b,c,d,e,f;
+int a,b,c,d;
+float e,f;
 int main(){
     printf("dame el primer numero\n");
       scanf("%f",&a);
@@ -10,7 +11,7 @@ int main(){
  d=a-b;
  e=a*b;
  f=a/b;
-    printf("suma:%.2f\n resta:%.2f\n multiplicacion%.2f\n division%.2f\n",c,d,e,f);
+    printf("suma:%d\n resta:%d\n multiplicacion%.2f\n division%.2f\n",c,d,e,f);
  system("pause");
  return 0;
 }
